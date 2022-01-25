@@ -16,7 +16,7 @@ public class Base {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		
-		driver.get("https://customer-qa.adgiants.com/auth/login");
+		driver.get("url");
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
