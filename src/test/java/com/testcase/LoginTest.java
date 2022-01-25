@@ -10,7 +10,6 @@ import com.utility.JiraPolicy;
 public class LoginTest extends Base{
 	
 	public LoginPage loginPage;
-	
 	// calling user-define annotation to raised jira ticket/issue
 	@JiraPolicy(logTicketReady = true) 
 	@Test(priority = 1, enabled = true)
